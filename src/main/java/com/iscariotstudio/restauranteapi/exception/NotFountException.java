@@ -4,7 +4,6 @@ import com.iscariotstudio.restauranteapi.dto.ErrorDto;
 import org.springframework.http.HttpStatus;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class NotFountException extends MainException{
 
