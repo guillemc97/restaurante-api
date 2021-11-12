@@ -14,4 +14,6 @@ public interface ReservaRepository extends JpaRepository<Reserva, Long> {
     @Modifying
     @Transactional
     Optional<Reserva> deleteByLocalicacion(String localicacion);
+
+    Optional<Reserva> findByLocalicacion(String localicacion);
 }
